@@ -1,4 +1,4 @@
 [uat-webservers]
-172.101.10.233 ansible_ssh_user='ec2-user' 
+172.31.84.179 ansible_ssh_user='ec2-user' 
 
-<Web2-UAT-Server-Private-IP-Address> ansible_ssh_user='ec2-user' 
+172.31.92.114 ansible_ssh_user='ec2-user' 
