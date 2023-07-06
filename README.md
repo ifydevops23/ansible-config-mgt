@@ -1,0 +1,1 @@
+# ansible-mngt-config
