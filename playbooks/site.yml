@@ -7,10 +7,12 @@
   tags:
     - always
 
+#------Playbook_to_install_Propitix_Website_with_webserver_role---------
 - hosts: uat-webservers
 - name: Webserver assignment
   import_playbook: ../static-assignments/uat-webservers.yml
 
+#------Playbook_to_install_a_desired_Load_Balancer_with_Apache/Nginx_role---------
 - name: Loadbalancers assignment
   hosts: lb
 - import_playbook: ../static-assignments/loadbalancers.yml
